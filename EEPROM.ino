@@ -181,7 +181,8 @@ void listaUsers(){//Imprime la lista de Usuarios registrados
     }
     
     else
-      break;
+      i--;
+      i+=24;
   }  
 }
 
